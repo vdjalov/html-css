@@ -1,0 +1,56 @@
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0.5%;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+section div {
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+section div span {
+    display: flex;
+    align-items: center;
+}
+.redBox {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+
+.greenBox {
+    background-color: greenyellow;
+    border: 2px solid black;
+   
+}
+
+.purpleBox {
+    background-color: purple;
+    border: 2px solid black;
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+
+ hr {
+    border: none;
+    height: 2px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+img {
+    display: block;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 0 5px #ccc;
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.page-wrapper {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.page {
+    flex: 0 1 60%;
+    flex-flow: column;
+    
+}
+
+.first-article {
+  display: flex;
+  flex-flow: column;
+}
+
+.first-article section img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.first-article section :nth-child(2) {
+    margin-top: unset;
+}
+
+.second-article section {
+  display: flex;
+}
+
+.second-article section {
+    display: flex;
+}
+
+.second-article section :first-child {
+    max-width: 50%;
+    padding-right: 10px;
+}
+
+.second-article section  :nth-child(2){
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    border-left: 2px solid grey;
+}
+
+.third-article {
+    display: flex;
+    flex-flow: column;
+}
+
+.third-article section :nth-child(2) {
+    margin-top: unset;
+}
+
+.third-article section img{
+    float: left;
+    max-height: 250px;
+    max-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.aside {
+   margin-top: 50px;
+   position: fixed;
+   right: 50px;
+}
+
+.aside nav ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+
+
+
+
