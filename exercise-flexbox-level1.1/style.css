@@ -1,0 +1,87 @@
+
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.page {
+    flex-direction: column;
+    width: 65%;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    height: 2px;
+    width: 125%;
+}
+
+
+.article-one-wrapper img {
+    float: right;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 0 5px #ccc;
+}
+
+.article-two-wrapper section {
+    display: flex;
+}
+
+.article-two-wrapper section p{
+    width: 50%;
+}
+
+.article-two-wrapper section :nth-child(1){
+    padding-right: 2%;
+}
+
+.article-two-wrapper section :nth-child(2){
+    border-left: 1px solid grey;
+    padding-left: 2%;
+    font-style: italic;
+}
+
+.article-two-wrapper section :nth-child(2) span {
+    display: block;
+    text-align: right;
+    margin-top: 5%;
+}
+
+.article-three-wrapper img {
+    float: left;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 0 5px #ccc;
+}
+
+.aside {
+    position: relative; 
+    right: -5%;
+    bottom: -100px;
+}
+
+.aside ul li a {
+   text-decoration: none;
+   color: green;
+}
+
+
+
+

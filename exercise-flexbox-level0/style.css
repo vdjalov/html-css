@@ -1,0 +1,35 @@
+.header, 
+.main,
+.aside,
+.footer {
+   border: 2px solid black;
+   height: 220px;
+   margin: 3px;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: -1px 1px 23px -12px rgba(0,0,0,0.75);
+}
+
+.main {
+    flex: 1 1 600px;
+}
+
+.aside {
+    flex: 1 1 800px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.page {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+.mid-section {
+    display: flex;
+}
