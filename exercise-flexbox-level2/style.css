@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.page {
+    display: flex;
+    width: 80%;
+   
+}
+
+.page section {
+    display: flex;
+    flex-flow: column;
+    margin: 1%;
+}
+
+.page section article {
+    border: 2px solid grey;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
+
+.page section article img{
+   max-width: 100%;
+   border: none;
+}
+
+.page section article p{
+   padding: 2%;
+ }
