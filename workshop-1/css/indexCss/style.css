@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+html {
+  height: 98%;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../img/image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/image.jpg);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 200%;
+}
+
+.login-menu h1 {
+  color: white;
+  margin-bottom: 2%;
+}
+
+.login-menu form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 230px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.login-menu form section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.login-menu form span {
+  margin: 6% 10%;
+}
+
+.login-menu form input {
+  border: none;
+}
+
+.login-menu form button {
+  margin-top: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 80%;
+  background-color: pink;
+  border: none;
+  border-radius: 20px;
+  font-size: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  #form {
+    height: 130px;
+    width: 250px;
+  }
+  #form span {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

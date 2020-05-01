@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+
+body {
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gelasio', serif;
+}
+
+.page-wrapper  {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    background: url("../../img/map.jpg");
+    background-size: 100%;
+    max-height: 450px;
+    .nav {
+        margin: 10px 10px;
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 40px;
+            height: 30px;
+            margin-left: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: gainsboro;
+        }
+
+        .top-right {
+            display: flex;
+            span {
+                margin-right: 20px;
+            }
+
+            button {
+                border: none;
+                padding: none;
+            }
+        }
+        
+        i {
+            color: white;
+        }
+    }
+
+    h1 {
+        color: white;
+        font-size: 200%;
+    }
+}
+
+
+.bottom-section {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+
+    a {
+        background-color: cornflowerblue;
+        padding: 1% 1%;
+        border-radius: 5px;
+        &:hover {
+            color: white;
+            font-size: 110%;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        .nav {
+            h1 {
+                font-size: 100%;
+            }
+        }
+    }
+
+    .main {
+        h1 {
+            font-size: 100%;
+        }
+    }
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    background-color: lightgrey;
+    
+    h1 {
+        margin-left: 15%;
+        margin-bottom: 0;
+    }
+
+    .articles {
+      display: flex;  
+      margin: 1% 15%;
+      
+
+      .first-image {
+        max-width: 40%;
+        max-height: 500px;
+        flex: auto;
+      }
+     
+    }
+
+    .main-right {
+        display: flex;
+        flex-flow: column;
+        max-height: 500px;
+      
+        
+      
+      img {
+          width: 100%;
+          max-height: 250px;
+      }
+    }
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    background-color: darkgray;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap; 
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 0% 20%;
+        }
+
+        li {
+          display: flex;
+          color: white;
+          text-align: center;
+        }
+    }
+
+    .third {
+        margin-right: 3%;
+    }
+}
