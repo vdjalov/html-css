@@ -104,35 +104,40 @@ footer :nth-child(1) {
 
 footer :nth-child(2) {
     color: cornsilk;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-    img {
-        display: none;
-    }
-
+@media screen and (max-width: 768px) {
+    
     .first-section {
-        justify-content: center; // Not working ...
-        
+        justify-content: center !important; 
+        img {
+            display: none;
+        }
     }
 }
 
 @media (max-width: 414px) {
     .first-section {
-       
+        justify-content: center !important; 
         img {
             display: none;
         }
     }
 
+    .second-section-images {
+        flex-flow: column;
+        img {
+            width: 100% !important;
+            height: 20% !important; 
+        }
+    }
 
     .third-section-images {
         flex-flow: column;
-
         img {
-            background-color: black;
-            width: 100%;
-            height: 20%;
+            width: 100% !important;
+            height: 20% !important; 
         }
     }
 
