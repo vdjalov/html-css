@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+html {
+  height: 98%;
+}
+
+body {
+  background-color: #ffd9b0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+.page-wrapper .left-section {
+  width: 60%;
+  background: url("/task-one/img/form-img.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.page-wrapper .right-section {
+  width: 35%;
+  padding: 5%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.page-wrapper .right-section h4 {
+  color: white;
+}
+
+.page-wrapper .right-section input {
+  margin: 5% 0%;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid ghostwhite;
+  width: 80%;
+  color: ghostwhite;
+}
+
+.page-wrapper .right-section button {
+  margin-top: 5%;
+  padding: 4% 10%;
+  background-color: lightsalmon;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    margin: 0px 0px;
+  }
+  .page-wrapper {
+    height: 90%;
+    margin-top: 10%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-wrapper .left-section {
+    background: url("/task-one/img/form-img.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100%;
+    height: 40%;
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+  }
+  .page-wrapper .right-section {
+    border-radius: 15px;
+    width: 100%;
+    height: 60%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+html {
+    height: 98%;
+}
+
+
+body {
+    background-color: rgb(255, 217, 176);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    
+    .left-section {
+        width: 60%;
+        background: url("/task-one/img/form-img.jpg");
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .right-section {
+        width: 35%;
+        padding: 5%;
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        border-radius: 0px 15px 15px 0px;;
+
+        h4 {
+            color: white;
+        }
+
+        input {
+            margin: 5% 0%;
+            background-color: black;
+            border: none;
+            border-bottom: 1px solid ghostwhite;
+            width: 80%;
+            color: ghostwhite;
+        }
+
+        button {
+            margin-top: 5%;
+            padding: 4% 10%;
+            background-color: lightsalmon;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            
+        }
+    }
+}
+
+@media screen and(max-width: 414px) {
+    body {
+        margin: 0px 0px;
+    }
+
+    .page-wrapper {
+        height: 90%;
+        margin-top: 10%;
+        flex-flow: column;
+        align-items: center;
+
+        .left-section {
+            background: url("/task-one/img/form-img.jpg");
+            background-size: 100%;
+            background-repeat: repeat;
+            width: 100%;
+            height: 40%;
+            padding: 5%;
+            border-radius: 15px;
+            margin-bottom: 5%;
+        }
+
+        .right-section {
+            border-radius: 15px;
+            width: 100%;
+            height: 60%;
+        }
+    }
+}
