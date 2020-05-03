@@ -1,0 +1,150 @@
+html {
+  height: 98%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../img/background3.jpeg");
+  background-size: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main img {
+  width: 100%;
+}
+
+main .first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 30%;
+  height: 100%;
+  margin: 0 1%;
+}
+
+main .first-section .first-section-first-div {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main .first-section .first-section-first-div img {
+  height: 70%;
+}
+
+main .first-section .first-section-first-div h4 {
+  background-color: white;
+  color: black;
+  height: 30%;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 5%;
+}
+
+main .first-section .first-section-second-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+}
+
+main .first-section .first-section-second-div div {
+  width: 50%;
+  height: 100%;
+}
+
+main .first-section .first-section-second-div div img {
+  height: 80%;
+}
+
+main .first-section .first-section-second-div div h4 {
+  background-color: white;
+  height: 20%;
+  margin: 0;
+  text-align: center;
+  padding-top: 5%;
+}
+
+main .first-section .first-section-second-div .first-section-second-div-left {
+  margin-right: 1%;
+}
+
+main .second-section {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main .second-section :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .second-section :nth-child(1) img {
+  width: 50%;
+}
+
+main .third-section {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main .third-section img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
