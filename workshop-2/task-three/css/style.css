@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Gelasio&display=swap");
+.m-sides {
+  margin: 0px 40px;
+}
+
+.eighty-height {
+  height: 80% !important;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -17,7 +25,7 @@ body {
 header {
   background: url("../img/craving.jpg");
   background-size: 100%;
-  height: 40%;
+  height: 50%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +94,7 @@ header .search-field {
 }
 
 main {
-  height: 120%;
+  height: 180%;
   width: 100%;
   background: url("../img/background.jpg");
   background-size: 100%;
@@ -101,6 +109,26 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 5%;
+}
+
+main .section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .section-wrapper a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: orangered;
+  padding: 5px 20px;
 }
 
 main .section {
@@ -139,5 +167,37 @@ main .section .text-box {
 main .section .img-box {
   width: 60%;
   height: 100%;
+}
+
+main .section h3 {
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: papayawhip;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 10%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
