@@ -1,0 +1,70 @@
+body {
+  background: url("../img/tabs_background.jpg");
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: white;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  padding: 0px;
+  color: silver;
+}
+
+header ul a {
+  text-decoration: none;
+  color: silver;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: white;
+  width: 80%;
+}
+
+main .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .article .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+main .article .section img {
+  width: 280px;
+  height: 210px;
+}
+
+main .article .section p {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

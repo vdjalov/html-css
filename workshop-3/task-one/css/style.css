@@ -37,7 +37,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-top: 3%;
-  width: 80%;
+  width: 90%;
   -ms-flex-item-align: center;
       align-self: center;
 }
