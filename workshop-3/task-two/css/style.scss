@@ -95,3 +95,65 @@ main {
     }
 }
 
+@media screen and (max-width:1236px) {
+ 
+    .article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+
+        ul {
+            flex-direction: column;
+            padding-left: 0px;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width:768px) {
+ 
+    header {
+        text-align: center;
+    }
+
+    .article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        width: 100% !important;
+        
+        img {
+            width: 150px !important;
+            height: 130px !important;
+        }
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .centre {
+        text-align: center;
+    }
+
+    footer {
+
+        ul {
+            flex-direction: column;
+            padding-left: 0px;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
+
+}
