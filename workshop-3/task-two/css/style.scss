@@ -37,7 +37,7 @@ main {
 
     .article {
         display: flex;
-        
+
         .section {
             display: flex;
             width: 50%;    
@@ -46,12 +46,52 @@ main {
                 width: 280px;
                 height: 210px;
             }
-
+    
             p {
                 width: 100%;
             }
         }
-
-
     }
 }
+
+.news {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+
+    .news-section {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        img {
+            width: 210px;
+            height: 180px;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-left: 0px;
+
+        li {
+            color: grey;
+            margin: 0px 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: grey;
+        }
+    }
+}
+
