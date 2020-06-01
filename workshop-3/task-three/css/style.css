@@ -1,4 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.width40 {
+  width: 40%;
+}
+
+.width20 {
+  width: 20%;
+}
+
+.mr-2 {
+  margin-right: 2%;
+}
+
 body {
-  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  color: white;
+  background-color: orangered;
+  padding: 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  padding-left: 40px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header form {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header form input {
+  outline: none;
+  width: 70%;
+  height: 100%;
+}
+
+header form button {
+  background-color: grey;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+
+header form button:hover {
+  background-color: white;
+}
+
+header .h-right-section {
+  padding-right: 40px;
+  text-align: right;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header .h-right-section a {
+  text-decoration: none;
+  color: white;
+}
+
+header .h-left-section {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main {
+  width: 80%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-top: 5%;
+}
+
+main .models-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+main .models-section img {
+  width: 100%;
+}
+
+main .models-section .centre {
+  text-align: center;
+  width: 90%;
+}
+
+main .collection-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+main .collection-section form {
+  width: 35%;
+}
+
+main .collection-section form h1 {
+  color: orangered;
+}
+
+main .collection-section form button {
+  padding: 10px;
+  color: white;
+  background-color: orangered;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+main .collection-section div {
+  width: 65%;
+}
+
+main .collection-section img {
+  width: 100%;
+}
+
+main .extras-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: lightgray;
+  padding: 40px 0px;
+  margin-bottom: 40px;
+}
+
+main .extras-section div {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .extras-section div .img-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  padding: 5px;
+}
+
+main .extras-section div .img-wrap img {
+  width: 70%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul {
+  width: 45%;
+  padding: 0em;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer ul .ring {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul .ring .call {
+  padding: 5px 45px;
+  background-color: lightgray;
+}
+
+footer ul .ring .working-hours {
+  font-size: small;
 }
 /*# sourceMappingURL=style.css.map */
