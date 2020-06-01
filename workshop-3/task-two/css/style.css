@@ -124,7 +124,7 @@ main .article .section p {
   color: grey;
 }
 
-@media screen and (max-width: 1236px) {
+@media screen and (max-width: 1000px) {
   .article {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -146,7 +146,7 @@ main .article .section p {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   header {
     text-align: center;
   }
